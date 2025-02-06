@@ -1,8 +1,8 @@
-import Point from "../models/Point.ts";
+import PointState from "./PoinState.ts";
 
 export default interface AppState{
     username: string | null,
     accessToken: string | null,
-    lastPoint: Point | null,
-    points: Point[] | null
+    popupText: string[]
+    pointsState: PointState;
 }

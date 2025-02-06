@@ -10,10 +10,6 @@ public class PointsFactory {
 
     static{
         PERMITTED_RADIUS = new CopyOnWriteArrayList<>();
-        PERMITTED_RADIUS.add(-2.0);
-        PERMITTED_RADIUS.add(-1.5);
-        PERMITTED_RADIUS.add(-1.0);
-        PERMITTED_RADIUS.add(-0.5);
         PERMITTED_RADIUS.add(0.0);
         PERMITTED_RADIUS.add(0.5);
         PERMITTED_RADIUS.add(1.0);
@@ -42,7 +38,7 @@ public class PointsFactory {
             return y >= x - r;
         }
         if (x < 0 && y >= 0){
-            return x >= r/2 && y <= r;
+            return x >= -1*r/2 && y <= r;
         }
         if (x < 0 && y < 0){
             return x*x + y*y <= r*r / 4;

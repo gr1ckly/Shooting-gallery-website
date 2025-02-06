@@ -1,8 +1,9 @@
 import FormState from "../models/FormState";
+import {AUTH_EXT, BACK_API, BASE_URL} from "../utils/const/HttpConst.ts";
 
 export default class AuthService{
     public static async refresh(): Promise<{username: string | null, token: string | null}> {
-        const finalUrl: string = window.location.origin + "/auth";
+        const finalUrl: string = window.location.origin + BASE_URL + BACK_API + AUTH_EXT;
         const response: Response = await fetch(finalUrl, {
             method: "PATCH"
         });
@@ -12,7 +13,7 @@ export default class AuthService{
     }
 
     public static async register(form: FormState): Promise<string | null> {
-        const finalUrl: string = window.location.origin + "/auth";
+        const finalUrl: string = window.location.origin + BASE_URL + BACK_API + AUTH_EXT;
         const response: Response = await fetch(finalUrl,{
             method: "POST",
             headers: {
@@ -24,7 +25,7 @@ export default class AuthService{
     }
 
     public static async signIn(form: FormState): Promise<string | null> {
-        const finalUrl: string = window.location.origin + "/auth";
+        const finalUrl: string = window.location.origin + BASE_URL + BACK_API + AUTH_EXT;
         const response: Response = await fetch(finalUrl, {
             method: "PUT",
             headers: {
@@ -36,10 +37,11 @@ export default class AuthService{
     }
 
     public static async logout(): Promise<boolean> {
-        const finalUrl: string = window.location.origin + "/auth";
+        const finalUrl: string = window.location.origin + BASE_URL + BACK_API + AUTH_EXT;
         const response: Response = await fetch(finalUrl, {
             method: "DELETE",
         });
+        console.log("logoutResp", response);
         return response.ok;
     }
 
@@ -47,13 +49,15 @@ export default class AuthService{
         if (response.ok){
             console.log("Регистрация прошла успешно!!!");
             const respData = await response.json();
-            const accessToken: string = respData.get("result");
+            const accessToken: string = respData.result;
             if (accessToken){
                 return accessToken;
             } else {
                 return null;
             }
-        } else {
+        } else if (response.status == 409) {
+            return "";
+        }else {
             return null;
         }
     }

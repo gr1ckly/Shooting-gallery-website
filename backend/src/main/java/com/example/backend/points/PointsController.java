@@ -40,7 +40,7 @@ public class PointsController {
     @Consumes(MediaType.APPLICATION_JSON)
     public Response getPointsSlice(JsonNode json, @HeaderParam("Authorization") String accessToken){
         String username = JwtUtil.getUsernameFromToken(accessToken);
-        if (!json.get("start").isLong() || !json.get("limit").isLong()){
+        if (!json.get("start").isNumber() || !json.get("limit").isNumber()){
             ErrorDTO err = new ErrorDTO("Invalid parameters");
             return Response.status(Response.Status.BAD_REQUEST).header("Content-Type", "application/json").entity(err).build();
         }
@@ -60,7 +60,7 @@ public class PointsController {
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response createPoints(@HeaderParam("Authorization") String accessToken, JsonNode pointForm){
+    public Response createPoint(@HeaderParam("Authorization") String accessToken, JsonNode pointForm){
         if (!pointForm.get("x").isNumber() || !pointForm.get("y").isNumber() || !pointForm.get("r").isNumber()){
             return Response.status(Response.Status.BAD_REQUEST).build();
         }

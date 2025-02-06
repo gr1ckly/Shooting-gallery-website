@@ -9,23 +9,92 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b97bf3a2-f524-4594-ac5c-c965215b8d17" name="Changes" comment="" />
+    <list default="true" id="310b6285-7e2a-4683-8a49-cb96a59d5d36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/background-C2VRAuPC.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/index-CFIXBF4h.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/index-DsZjDLkX.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/saira-latin-400-normal-C8lyYOAt.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/saira-latin-400-normal-CVfG1OLJ.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/saira-latin-ext-400-normal-Cav8wdQv.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/saira-latin-ext-400-normal-DBskAcT_.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/saira-vietnamese-400-normal-BTTEunEh.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/saira-vietnamese-400-normal-CF8ywS3x.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/public/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/main/LogoutToolbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/main/MainPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/main/input/Graphic.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/main/input/InputPointsWrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/main/input/PointForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/main/table/PaginationFooter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/main/table/PointsTableBody.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/main/table/PointsTableHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/popup/ModalControl.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/popup/Popup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/global.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/models/enums/ActionEnum.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/storage/state/PoinState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/styles/Form.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/styles/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/styles/InputWrapper.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/styles/LogoutToolbar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/styles/MainPage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/styles/Pagination.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/styles/PointForm.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/styles/Popup.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/styles/Table.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/utils/RefreshTokenWrapper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/utils/const/HttpConst.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/utils/const/PointsConst.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/utils/const/PopupConst.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/backend/auth/jwt/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/backend/auth/jwt/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/backend/points/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/backend/points/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/backend/webApp/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/backend/webApp/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/index-DWu-65Hc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/index-DgkA6Xha.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/AuthForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/login/AuthForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/MainPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/models/ActionEnum.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/models/RegisterEnum.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/models/enums/RegisterEnum.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/services/AuthService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/services/AuthService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/services/PointsService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/services/PointsService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/storage/AppState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/storage/state/AppState.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/storage/AppStateSelectors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/storage/AppStateSelectors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/storage/AppStorage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/storage/AppStorage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/tsconfig.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Jsp File" />
-        <option value="Record" />
-        <option value="AnnotationType" />
-        <option value="Class" />
-        <option value="Exception" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -37,19 +106,25 @@
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2rFSItyxNdigp89b0PjvDte8QyK" />
+  <component name="ProjectId" id="2rcp4QVleSJexTw5pVajDEYNraN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;JBoss/WildFly Server.JBoss/WildFly 26.1.2.Final.executor&quot;: &quot;Run&quot;,
     &quot;JBoss/WildFly Server.JBoss/WildFly 34.0.0.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.backend [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.backend [clean,package,install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.backend [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.backend [package,clean,install].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TomEE Server.Tomcat 9.0.98.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.98.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/gr1ckly/Desktop/gr1ckly_files/ITMO_CSE_27/2024-2025/WebProgramming/Lab_4/backend/src/main/webapp&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -57,9 +132,9 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3719165&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -67,27 +142,20 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/backend" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/static" />
-      <recent name="$PROJECT_DIR$/src/main/resources/static" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean install " />
       <command value="mvn clean" />
-      <command value="mvn package clean install" />
-      <command value="mvn clean install" />
-      <command value="mvn package clean install " />
+      <command value="mvn clean package install" />
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="JBoss/WildFly 34.0.0" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 34.0.0" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="UPDATING_POLICY" value="restart-server" />
+  <component name="RunManager" selected="JBoss/WildFly Server.JBoss/WildFly 34.0.0">
+    <configuration name="JBoss/WildFly 34.0.0" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 34.0.0" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="backend:war exploded">
           <settings />
@@ -103,7 +171,7 @@
       </server-settings>
       <predefined_log_file enabled="true" id="JBoss" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="36129" />
+        <option name="DEBUG_PORT" value="37799" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -157,6 +225,97 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Tomcat 9.0.98" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.98" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="backend:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/backend_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="c06fef2a-fcc4-4485-95c4-bcccd7558290" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="45135" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="backend:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JBoss/WildFly Server.JBoss/WildFly 34.0.0" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.98" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -169,30 +328,28 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b97bf3a2-f524-4594-ac5c-c965215b8d17" name="Changes" comment="" />
-      <created>1736153254561</created>
+      <changelist id="310b6285-7e2a-4683-8a49-cb96a59d5d36" name="Changes" comment="" />
+      <created>1736868028145</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1736153254561</updated>
-      <workItem from="1736153255508" duration="169000" />
-      <workItem from="1736153430571" duration="86000" />
-      <workItem from="1736198470814" duration="1081000" />
-      <workItem from="1736243501062" duration="2488000" />
-      <workItem from="1736258843967" duration="3981000" />
-      <workItem from="1736279548060" duration="728000" />
-      <workItem from="1736364958398" duration="7980000" />
-      <workItem from="1736412960039" duration="7983000" />
-      <workItem from="1736429791340" duration="7572000" />
-      <workItem from="1736440776824" duration="23925000" />
-      <workItem from="1736467786192" duration="419000" />
-      <workItem from="1736532403684" duration="5943000" />
-      <workItem from="1736607290629" duration="6201000" />
-      <workItem from="1736613740499" duration="222000" />
-      <workItem from="1736680046223" duration="9636000" />
-      <workItem from="1736715184203" duration="3798000" />
-      <workItem from="1736792569004" duration="3351000" />
-      <workItem from="1736805347044" duration="6540000" />
-      <workItem from="1736847196568" duration="720000" />
+      <updated>1736868028145</updated>
+      <workItem from="1736868029157" duration="554000" />
+      <workItem from="1736876032616" duration="85000" />
+      <workItem from="1736939572920" duration="13296000" />
+      <workItem from="1736980703576" duration="541000" />
+      <workItem from="1737052052766" duration="13900000" />
+      <workItem from="1737114669994" duration="10163000" />
+      <workItem from="1737149756884" duration="1685000" />
+      <workItem from="1737151886178" duration="728000" />
+      <workItem from="1737153149685" duration="1452000" />
+      <workItem from="1737159735529" duration="2090000" />
+      <workItem from="1737195171844" duration="21395000" />
+      <workItem from="1737240452619" duration="10125000" />
+      <workItem from="1737255246032" duration="3352000" />
+      <workItem from="1737295901891" duration="1297000" />
+      <workItem from="1737327947082" duration="2919000" />
+      <workItem from="1738285140784" duration="1000" />
+      <workItem from="1738696653280" duration="1000" />
     </task>
     <servers />
   </component>
@@ -203,272 +360,139 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
-          <line>103</line>
-          <option name="timeStamp" value="118" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
-          <line>104</line>
-          <option name="timeStamp" value="119" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
-          <line>105</line>
-          <option name="timeStamp" value="120" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
-          <line>107</line>
-          <option name="timeStamp" value="121" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
-          <line>106</line>
-          <option name="timeStamp" value="122" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
-          <line>108</line>
-          <option name="timeStamp" value="123" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
-          <line>109</line>
-          <option name="timeStamp" value="124" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
-          <line>110</line>
-          <option name="timeStamp" value="125" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
-          <line>111</line>
-          <option name="timeStamp" value="126" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
-          <line>112</line>
-          <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
-          <line>113</line>
-          <option name="timeStamp" value="128" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
-          <line>114</line>
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
-          <line>123</line>
-          <option name="timeStamp" value="130" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
-          <line>124</line>
-          <option name="timeStamp" value="131" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
-          <line>125</line>
-          <option name="timeStamp" value="132" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
-          <line>126</line>
-          <option name="timeStamp" value="133" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
-          <line>127</line>
-          <option name="timeStamp" value="134" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthService.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="135" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthService.java</url>
-          <line>84</line>
-          <option name="timeStamp" value="136" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthService.java</url>
-          <line>85</line>
-          <option name="timeStamp" value="137" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthService.java</url>
-          <line>86</line>
-          <option name="timeStamp" value="138" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthService.java</url>
-          <line>87</line>
-          <option name="timeStamp" value="139" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthService.java</url>
-          <line>88</line>
-          <option name="timeStamp" value="140" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthService.java</url>
-          <line>89</line>
-          <option name="timeStamp" value="141" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthService.java</url>
-          <line>90</line>
-          <option name="timeStamp" value="142" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthService.java</url>
-          <line>91</line>
-          <option name="timeStamp" value="143" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthService.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="144" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthService.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="145" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthService.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="146" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="149" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="150" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="151" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="152" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="153" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="154" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="155" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="156" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="157" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="159" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="160" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="161" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="162" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="163" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="164" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="165" />
+          <line>34</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
           <line>33</line>
-          <option name="timeStamp" value="166" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="167" />
+          <line>32</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/jwt/JwtAuthenticationFilter.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="168" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/jwt/JwtAuthenticationFilter.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="169" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/jwt/JwtAuthenticationFilter.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="170" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
-          <line>23</line>
-          <properties class="com.example.backend.points.PointsController" method="getPointsCount">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="158" />
+          <line>31</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/points/PointsController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
           <line>62</line>
-          <properties class="com.example.backend.points.PointsController" method="createPoints">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="171" />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthService.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthService.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthService.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/backend/auth/AuthController.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -9,7 +9,7 @@ import jakarta.ws.rs.core.Application;
 import java.util.HashSet;
 import java.util.Set;
 
-@ApplicationPath("/")
+@ApplicationPath("/api")
 public class MainApp extends Application {
     @Override
     public Set<Class<?>> getClasses() {

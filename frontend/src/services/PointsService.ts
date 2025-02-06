@@ -1,11 +1,15 @@
+import {BASE_URL} from "../utils/const/HttpConst.ts";
+import {BACK_API} from "../utils/const/HttpConst.ts";
+import {POINTS_EXT} from "../utils/const/HttpConst.ts";
+
 class PointsService {
     public static async getSlice(start: number, limit: number, accessToken: string): Promise<Response>{
         const data = {start: start, limit: limit};
-        const finalUrl: string = window.location.origin + "/points";
+        const finalUrl: string = window.location.origin + BASE_URL + BACK_API + POINTS_EXT;
         const response: Response = await fetch(finalUrl, {
-                method: "GET",
+                method: "PATCH",
                 headers: {
-                    'Authorization' : accessToken,
+                    'Authorization' : "Bearer " + accessToken,
                     'Content-Type' : "application/json"
                 },
                 body: JSON.stringify(data)
@@ -15,12 +19,12 @@ class PointsService {
 
     public static async createPoint(x: number, y: number, r: number, accessToken: string): Promise<Response>{
         const data = {x: x, y: y, r: r,};
-        const finalUrl: string = window.location.origin + "/points";
+        const finalUrl: string = window.location.origin + BASE_URL + BACK_API + POINTS_EXT;
         const response: Response = await fetch(finalUrl, {
             method: "POST",
             headers: {
                 'Content-type': 'application/json',
-                'Authorization': accessToken
+                'Authorization': "Bearer " + accessToken
             },
             body: JSON.stringify(data)
         });
@@ -28,11 +32,11 @@ class PointsService {
     }
 
     public static async getCountPoints(accessToken: string): Promise<Response>{
-        const finalUrl: string = window.location.origin + "/points";
+        const finalUrl: string = window.location.origin + BASE_URL + BACK_API + POINTS_EXT;
         const response: Response = await fetch(finalUrl, {
             method: "GET",
             headers: {
-                'Authorization': accessToken
+                'Authorization': "Bearer " + accessToken
             }
         });
         return response;

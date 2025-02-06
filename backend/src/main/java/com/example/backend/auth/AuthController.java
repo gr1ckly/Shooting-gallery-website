@@ -5,6 +5,7 @@ import com.example.backend.auth.jwt.JwtUtil;
 import com.example.backend.auth.jwt.TokensPair;
 import com.example.backend.utils.dtos.ErrorDTO;
 import com.fasterxml.jackson.databind.JsonNode;
+import jakarta.ejb.EJB;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.*;
@@ -13,7 +14,7 @@ import jakarta.ws.rs.core.*;
 public class AuthController {
     private static final String REFRESH_TOKEN_NAME = "refresh_token";
 
-    @Inject
+    @EJB
     private AuthService authService;
 
     @PATCH
@@ -50,7 +51,8 @@ public class AuthController {
             return Response.ok().build();
         }
         try {
-            this.authService.logout(oldRefreshToken);
+            String username = JwtUtil.getUsernameFromToken(oldRefreshToken);
+            this.authService.logout(username);
             NewCookie deleteRefreshCookie = new NewCookie(REFRESH_TOKEN_NAME,
                     null,
                     "/",
